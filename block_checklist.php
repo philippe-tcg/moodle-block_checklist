@@ -7,7 +7,6 @@ class block_checklist extends block_list {
         $this->title = get_string('checklist','block_checklist');
     }
 
-
     function instance_allow_multiple() {
         return true;
     }
